@@ -18,5 +18,14 @@ button.addEventListener("click", function(){
 $.ajax(settings).done(function (response) {
     input.value ="";
     console.log(response);
+    console.log(response.data[i].preview);
     
-});})
+
+    for (let i = 0; i < response.length; i++) {
+        console.log(response, i)
+        if(response[i]<25){
+            var audioElement = new Audio(response.data[i].preview);  
+            audioElement.play();
+        }
+});
+})
