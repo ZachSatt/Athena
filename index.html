@@ -7,6 +7,8 @@
     <title>Athena</title>
     <!--Bulma CSS Link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!--Font Awesome/Intro JS-->
     <script type="text/javascript" src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <!--CSS Helpers stylesheet-->
@@ -130,42 +132,7 @@
             </div>
         </footer>
     </section>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        var apiEndpointBaseURL = "https://api.harvardartmuseums.org/object";
-        var queryString = $.param({
-            apikey: "4fcb0a30-b68a-11ea-b493-4bc132726a26",
-            title: "horses",
-            classification: "Paintings"
-        });
-
-        $.getJSON(apiEndpointBaseURL + "?" + queryString, function(genpics) {
-
-            let records = genpics.records;
-
-            let pictureImg = document.querySelector("#picture");
-            pictureImg.setAttribute("src", genpics.records[0].images[0].baseimageurl);
-
-
-            //
-            //for (let index = 0; index < records.length; index++) {
-            // const element = records[index];
-
-
-
-
-            // console.log(genpics.records[index].images[0].baseimageurl);
-
-
-
-            // }
-
-
-
-
-        });
-    </script>
+    <script src="dougs.js"></script>
 </body>
 
 </html>
