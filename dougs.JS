@@ -9,7 +9,7 @@ $.getJSON(apiEndpointBaseURL + "?" + queryString, function(genpics) {
 
     let records = genpics.records;
 
-    let pictureImg = document.querySelector("#picture");
+    let pictureImg = document.querySelector(".picture");
     pictureImg.setAttribute("src", genpics.records[0].images[0].baseimageurl);
 
 

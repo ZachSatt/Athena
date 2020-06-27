@@ -1,0 +1,15 @@
+#music{
+    margin: 8px;
+}
+#shadow{
+    filter: drop-shadow(20px 10px 4px rgb(0, 0, 0, 0.5)); ;
+}
+//add deezer logo instead of api name
+/*take api off title (complete)*/
+/*drop shadow on cards to make more dynamic(complete)*/
+//main card feComponentTransfer//side card collapse//fixed position bottom right
+//attempt slideout for music container
+//create button for play/pause
+//icon for music container slideout
+//css grid(check if do-able)
+// add font for harvardxdeezer 
