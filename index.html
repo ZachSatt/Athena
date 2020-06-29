@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Athena</title>
-  <!--Bulma CSS Link-->
+  <!--Bulma CSS/Script Link-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
   <!--Font Awesome/Intro JS-->
   <script type="text/javascript" src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
@@ -19,7 +19,7 @@
   <style>
     .hero {
       background: center / cover;
-      animation: animate 75s ease-in-out infinite;
+      animation: animate 300s ease-in-out infinite;
     }
 
     @keyframes animate {
@@ -29,28 +29,50 @@
         background-image: url(sunday-lgj1.jpg);
       }
 
-      20% {
-        background-image: url(life1.jpg);
+      10% {
+        background-image: url(temple1.jpg);
       }
 
-      40% {
+      20% {
         background-image: url(niagra1.jpg);
       }
 
-      60% {
-        background-image: url(sisters1.jpg);
+      30% {
+        background-image: url(jesus1.jpg);
       }
 
-      80% {
+      40% {
         background-image: url(paris1.jpg);
       }
+      
+      50% {
+        background-image: url(house1.jpg);
+      }
+      
+      60% {
+        background-image: url(drinkers1.jpg);
+      }
+      
+      70% {
+        background-image: url(diningroom1.jpg);
+      }
+      
+      80% {
+        background-image: url(sisters1.jpg);
+      }
+      
+      80% {
+        background-image: url(life1.jpg);
+      }
+    
+    
     }
   </style>
 </head>
 
 <body>
 
-  <!--Section-->
+  <!--Header-->
   <section class="hero is-fullheight">
     <div class="hero-head">
       <div class="columns is-mobile is-marginless heading has-text-weight-bold">
@@ -58,45 +80,43 @@
           <p class="navbar-item has-text-white" style="font-size:24px">HARVARDxDEEZER</p>
         </div>
         <div class="column center desktop">
-          <div class="is-overlay has-text-centered single-spaced" style="top: 50px;">
+          <div class="has-text-centered single-spaced" style="top: 50px;">
             <h1 class="subtitle is-4 has-text-white has-text-weight-light">Welcome</h1>
             <h2 class="title is-1 has-text-white" style="font-size:36px"></h2>
           </div>
         </div>
         <div class="column right">
-          <figure class="navbar-item image has-text-white center">
-            <i class="fas fa-bars" style="font-size:36px"></i>
-          </figure>
+          <p class="navbar-item has-text-white" style="font-size:24px">ATHENA</p>
         </div>
       </div>
     </div>
-    <div class="hero-body">
-      <div class="columns is-desktop is-marginless">
-        <div class="column is-half">
-          <div class="card" id="shadow">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img class="picture" src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <!--REMOVED SMALL PHOTO IMG-->
-                <div class="media-content">
-                  <p>John Smith</p>
-                </div>
+    <!--API Image-->
+    <div class="hero-body is-mobile is-marginless">
+      <div class="columns is-desktop is-marginless">  
+        <div class="section is-centered">
+          <div class="column is-centered">
+            <div class="card is-centered" id="shadow">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img class="picture" src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                </figure>
               </div>
-
-              <div class="content">
-                Take 30 sec. and think about what comes to mind looking at this picture... 
-                Now choose some music, agagin what comes to mind when you see this image?<a>@bulmaio</a>.
-                <a href="#">#css</a> <a href="#">#responsive</a>
-                <br>
-                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+              <div class="card-content">
+                <div class="media">
+                  <!--REMOVED SMALL PHOTO IMG-->
+                  <div class="media-content">
+                    <p>Please read below:</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Take 30 sec. and think about what comes to mind looking at this picture... 
+                  Now choose some music, again what comes to mind when you see this image?
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </div>     
+        <!--Music Section-->
         <div class="column is-half">
           <div class="card" style="top:125px" id="shadow">
             <header class="card-header">
@@ -109,7 +129,6 @@
                 </span>
               </a>
             </header>
-            <!--Music Section-->
             <div class="card-content">
               <div class="content">
                 <div class="input" style="margin: .5rem">
@@ -133,22 +152,21 @@
         </div>
       </div>
     </div>
-    </div>
-    <footer class="footer">
+    <!--Page Footer-->
+    <footer class="footer is-mobile is-marginless" style="height: 20px">
       <div class="content has-text-centered">
         <p>
-          <strong>Athena</strong> by <a href="https://jgthms.com">Dave Dawkins, Doug Livingston, and Zach Sattinger</a>.
-          The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          <strong>Athena</strong> by Dave Dawkins, Doug Livingston, and Zach Sattinger</a>.
         </p>
       </div>
     </footer>
   </section>
+  
   <!--DOUG API LINK-->
   <script src="dougs.js"></script>
   <!--DAVE API LINK-->
   <script src="deezerWorks.js"></script>
+
 </body>
 
 </html>
