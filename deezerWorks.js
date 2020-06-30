@@ -7,7 +7,7 @@ button.addEventListener("click", function () {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "https://deezerdevs-deezer.p.rapidapi.com/search?q=playlist",
+        "url": "https://deezerdevs-deezer.p.rapidapi.com/search?q=" + input.value,
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
