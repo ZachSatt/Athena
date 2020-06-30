@@ -14,60 +14,9 @@
   <!--CSS Helpers stylesheet-->
   <link rel="stylesheet" href="helpers.css">
   <!--Basic Stlye Fixes-->
-  <link rel="stylesheet" href="indexStyle.css">
+  <link rel="stylesheet" href="style.css">
   <!--Placeholder background styling for API images -- "unsplash" maybe???-->
-  <style>
-    .hero {
-      background: center / cover;
-      animation: animate 300s ease-in-out infinite;
-    }
-
-    @keyframes animate {
-
-      0%,
-      100% {
-        background-image: url(sunday-lgj1.jpg);
-      }
-
-      10% {
-        background-image: url(temple1.jpg);
-      }
-
-      20% {
-        background-image: url(niagra1.jpg);
-      }
-
-      30% {
-        background-image: url(jesus1.jpg);
-      }
-
-      40% {
-        background-image: url(paris1.jpg);
-      }
-      
-      50% {
-        background-image: url(house1.jpg);
-      }
-      
-      60% {
-        background-image: url(drinkers1.jpg);
-      }
-      
-      70% {
-        background-image: url(diningroom1.jpg);
-      }
-      
-      80% {
-        background-image: url(sisters1.jpg);
-      }
-      
-      80% {
-        background-image: url(life1.jpg);
-      }
-    
-    
-    }
-  </style>
+ 
 </head>
 
 <body>
@@ -77,7 +26,7 @@
     <div class="hero-head">
       <div class="columns is-mobile is-marginless heading has-text-weight-bold">
         <div class="column left">
-          <p class="navbar-item has-text-white" style="font-size:24px">HARVARDxDEEZER</p>
+          <p class="navbar-item has-text-white" style="font-size:24px">HARVARD x DEEZER</p>
         </div>
         <div class="column center desktop">
           <div class="has-text-centered single-spaced" style="top: 50px;">
@@ -90,81 +39,67 @@
         </div>
       </div>
     </div>
+    
     <!--API Image-->
     <div class="hero-body is-mobile is-marginless">
-      <div class="columns is-desktop is-marginless">  
-        <div class="section is-centered">
-          <div class="column is-centered">
-            <div class="card is-centered" id="shadow">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img class="picture" src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <!--REMOVED SMALL PHOTO IMG-->
-                  <div class="media-content">
-                    <p>Please read below:</p>
-                  </div>
-                </div>
-                <div class="content">
-                  Take 30 sec. and think about what comes to mind looking at this picture... 
-                  Now choose some music, again what comes to mind when you see this image?
-                </div>
-              </div>
-            </div>
+      <div class="container is-centered">
+        <div class="card is-centered" id="shadow">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img class="picture" src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
           </div>
-        </div>     
-        <!--Music Section-->
-        <div class="column is-half">
-          <div class="card" style="top:125px" id="shadow">
-            <header class="card-header">
-              <p class="card-header-title">
-                DeezerApi
-              </p>
-              <a href="#" class="card-header-icon" aria-label="more options">
-                <span class="icon">
-                  <i class="fas fa-angle-down" aria-hidden="true"></i>
-                </span>
-              </a>
-            </header>
-            <div class="card-content">
-              <div class="content">
-                <div class="input" style="margin: .5rem">
-                  <p id="music">Enter Genre</p>
-                  <input type="text" placeholder="Enter the city" id="input_text">
-                  <input type="submit" value="Submit" class="submit">
-                </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p>Please read below:</p>
               </div>
-              <figure>
-                <figcaption id="namey">Listen to:</figcaption>
-                <audio controls preload="auto" id="soundy">
-                </audio>
-              </figure>
             </div>
-            <footer class="card-footer">
-              <a href="#" class="card-footer-item">Back</a>
-              <a href="#" class="card-footer-item">Next</a>
-              <a href="#" class="card-footer-item">Full Song</a>
-            </footer>
+            <div class="content">
+              Take 30 sec. and think about what comes to mind looking at this picture... 
+              Now choose some music, again what comes to mind when you see this image?
+            </div>
           </div>
         </div>
       </div>
     </div>
+    
+    <!--Music Section-->
+    
     <!--Page Footer-->
-    <footer class="footer is-mobile is-marginless" style="height: 20px">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Athena</strong> by Dave Dawkins, Doug Livingston, and Zach Sattinger</a>.
-        </p>
+    <footer class="footer is-mobile is-marginless" id="footer">
+      <div class="card" id="shadow">
+        <header class="card-header">
+          <p class="card-header-title">
+            DeezerApi
+          </p>
+          <a href="#" class="card-header-icon" aria-label="more options">
+            <span class="icon">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </a>
+        </header>
+        <div class="card-content">
+          <div class="content">
+            <div class="input" style="margin: .5rem">
+              <p id="music">Enter Genre</p>
+              <input type="text" placeholder="Enter the city" id="input_text">
+              <input type="submit" value="Submit" class="submit">
+            </div>
+          </div>
+          <figure>
+            <figcaption id="namey">Listen to:</figcaption>
+            <audio controls preload="auto" id="soundy">
+            </audio>
+          </figure>
+        </div>
       </div>
     </footer>
   </section>
   
-  <!--DOUG API LINK-->
+  <!--DOUG API JS LINK-->
   <script src="dougs.js"></script>
-  <!--DAVE API LINK-->
+  <!--DAVE API JS LINK-->
   <script src="deezerWorks.js"></script>
 
 </body>

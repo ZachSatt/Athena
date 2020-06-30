@@ -1,0 +1,74 @@
+#music{
+    margin: 8px;
+}
+#shadow{
+    filter: drop-shadow(20px 10px 4px rgb(0, 0, 0, 0.5)); ;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 2rem 1.5rem 2rem;
+}
+
+.hero {
+    background: center / cover;
+    animation: animate 300s ease-in-out infinite;
+  }
+
+  @keyframes animate {
+
+    0%,
+    100% {
+      background-image: url(images/sunday-lgj1.jpg);
+    }
+
+    10% {
+      background-image: url(images/temple1.jpg);
+    }
+
+    20% {
+      background-image: url(images/niagra1.jpg);
+    }
+
+    30% {
+      background-image: url(images/jesus1.jpg);
+    }
+
+    40% {
+      background-image: url(images/paris1.jpg);
+    }
+    
+    50% {
+      background-image: url(images/house1.jpg);
+    }
+    
+    60% {
+      background-image: url(images/drinkers1.jpg);
+    }
+    
+    70% {
+      background-image: url(images/diningroom1.jpg);
+    }
+    
+    80% {
+      background-image: url(images/sisters1.jpg);
+    }
+    
+    80% {
+      background-image: url(images/life1.jpg);
+    }
+  
+  
+}
+
+/*STLYING TO DO:
+/ - add deezer logo instead of api name
+/ - take api off title (complete)
+/ - drop shadow on cards to make more dynamic(complete)
+/ - main card feComponentTransfer//side card collapse//fixed position bottom right
+/ - attempt slideout for music container
+/ - create button for play/pause
+/ - icon for music container slideout
+/ - css grid(check if do-able)
+/ - add font for harvardxdeezer
+*/
