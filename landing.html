@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Athena</title>
+  <!--Bulma CSS Link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <!--Font Awesome/Intro JS-->
+  <script type="text/javascript" src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <!--JQuery link-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--Basic Stlye Fixes-->
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+
+  <!--Header-->
+  <section class="hero is-fullheight">
+    <div class="hero-head" id="header">
+      <div class="columns is-mobile is-marginless heading has-text-weight-bold">
+        <div class="column left">
+          <p class="navbar-item has-text-white" style="font-size:24px" style="color: #222;">HARVARD x DEEZER</p>
+        </div>
+        <div class="column center desktop">
+          <div class="has-text-centered single-spaced" style="top: 50px;">
+            <h1 class="subtitle is-4 has-text-white has-text-weight-light" style="color: #222;">Welcome</h1>
+            <h2 class="title is-1 has-text-white" style="font-size:36px"></h2>
+          </div>
+        </div>
+        <div class="column right">
+          <p class="navbar-item has-text-white" style="font-size:24px" style="color: #222;">ATHENA</p>
+        </div>
+      </div>
+    </div>
+    
+    <!--API Image-->
+    <div class="hero-body is-mobile is-marginless">
+      <div class="container is-centered">
+        <div class="card is-centered" id="shadow">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img class="picture" src="" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content" id="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p>Our goal with Athena is to immerse you in the synchronization of Art and Music.</p>
+              </div>
+            </div>
+            <div class="content">
+              Take a moment and think about what comes to mind and how you feel while viewing this image. Search a genre below and view the image again.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Music Section-->
+    <div class="container is-centered" id="shadow">
+      <div class="card is-mobile is-marginless">
+        <div class="card-content" id="card-content">
+          <div class="content">
+            <div class="input" style="margin: .5rem" id="search">
+              <p id="music">Enter Genre</p>
+              <input type="text" placeholder="Enter Genre" id="input_text">
+              <input type="submit" value="Submit" class="submit" id="submit">
+            </div>
+          </div>
+          <figure>
+            <figcaption id="namey">Listen to:</figcaption>
+            <audio controls preload="auto" id="soundy">
+            </audio>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!--Page Footer-->
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container">
+          <ul>
+            <li class="is-active"><a id="footer">Athena by David Dawkins, Doug Livingston, and Zach Sattinger</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </section>
+  
+  <!--DOUG API JS LINK-->
+  <script src="dougs.js"></script>
+  <!--DAVE API JS LINK-->
+  <script src="deezerWorks.js"></script>
+
+</body>
+
+</html>
