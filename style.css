@@ -31,6 +31,13 @@
     color: white;
 }
 
+#logos{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
     animation: transitionIn 1s;
 }
