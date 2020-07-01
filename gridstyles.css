@@ -1,4 +1,4 @@
-/* Landing Page Grid */
+/* Welcome Page Styling */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -68,4 +68,12 @@ a.button1:hover {
   display:block;
   margin:0.4em auto;
   }
+}
+
+#logos {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 430px;
 }

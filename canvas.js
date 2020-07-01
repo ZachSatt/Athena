@@ -19,12 +19,12 @@ $(document).ready(function(){
     let draw = setInterval(function(){
       if(mousePos.x > 0 && mousePos.y > 0){
         
-        let range = 15;
+        let range = 20;
         
-        let color = "background: rgb("+getRandomInt(0,255)+","+getRandomInt(0,255)+","+getRandomInt(0,255)+");";
+        let color = "background: rgb("+getRandomInt(0,300)+","+getRandomInt(0,300)+","+getRandomInt(0,300)+");";
         
         let sizeInt = getRandomInt(10, 30);
-        size = "height: " + sizeInt + "px; width: " + sizeInt + "px;";
+        let size = "height: " + sizeInt + "px; width: " + sizeInt + "px;";
         
         let left = "left: " + getRandomInt(mousePos.x-range-sizeInt, mousePos.x+range) + "px;";
         
