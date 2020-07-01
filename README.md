@@ -4,11 +4,11 @@ Athena is a ArtMusic app. The purpose of the app is to spark a greater interest 
 API based museum curated images w/ music.
 
 ## Used-
-
-Bulma CSS - styling
-Harvard API - curated images
-Deezer API - music
-JQuery & FontAwesome
+Framework - Bulma
+Styling - CSS/FontAwesome
+Curated Images - Harvard API
+Music- Deezer API
+JQuery
 Tutor - Aylan Mello
 
 ## Screenshot- 
