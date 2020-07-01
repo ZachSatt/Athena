@@ -5,7 +5,8 @@ API based museum curated images w/ music.
 
 ## Used-
 Framework - Bulma **
-Styling - CSS/FontAwesome ** 
+Styling - CSS/FontAwesome **
+Landing Page Animation - Codepen: Renato Riberio **
 Curated Images - Harvard API ** 
 Music- Deezer API ** 
 JQuery **
