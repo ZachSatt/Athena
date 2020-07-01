@@ -15,4 +15,4 @@ Tutor - Aylan Mello
 ![alt text](image screenshot saved "describe screenshot")
 
 ## Deployment Link-
-https://github.com/ZachSatt/Athena
+https://zachsatt.github.io/Athena/
