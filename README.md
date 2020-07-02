@@ -5,11 +5,11 @@ API based museum curated images w/ music.
 
 ## Used-
 
-Bulma CSS - styling
-Harvard API - curated images
-Deezer API - music
-JQuery & FontAwesome
-Tutor - Aylan Mello
+Bulma CSS - styling || 
+Harvard API - curated images || 
+Deezer API - music || 
+JQuery & FontAwesome || 
+Tutor - Aylan Mello || 
 
 ## Screenshot- 
 ![alt text](image screenshot saved "describe screenshot")
